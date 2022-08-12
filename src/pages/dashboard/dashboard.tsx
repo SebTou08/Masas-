@@ -14,7 +14,7 @@ export default function Dashboard() {
     {
       name: "Masa ",
       price: 1.2,
-      urlImage: "http://www.panificadoraindustrialsac.com/img/prod_pizza.jpg",
+      urlImage: "https://static3.abc.es/media/bienestar/2021/02/09/pizza-base-verduras-kBFE--1200x630@abc.jpg",
       destacado: true,
       size: 16,
       unitSize: "cm",
@@ -23,7 +23,7 @@ export default function Dashboard() {
     {
       name: "Masa",
       price: 1.6,
-      urlImage: "http://www.panificadoraindustrialsac.com/img/prod_pizza.jpg ",
+      urlImage: "https://static3.abc.es/media/bienestar/2021/02/09/pizza-base-verduras-kBFE--1200x630@abc.jpg ",
       destacado: false,
       size: 22,
       unitSize: "cm",
@@ -32,7 +32,7 @@ export default function Dashboard() {
     {
       name: "Masa",
       price: 2.4,
-      urlImage: "http://www.panificadoraindustrialsac.com/img/prod_pizza.jpg ",
+      urlImage: "https://static3.abc.es/media/bienestar/2021/02/09/pizza-base-verduras-kBFE--1200x630@abc.jpg ",
       destacado: false,
       size: 30,
       unitSize: "cm",
@@ -41,7 +41,7 @@ export default function Dashboard() {
     {
       name: "Masa",
       price: 2.6,
-      urlImage: "http://www.panificadoraindustrialsac.com/img/prod_pizza.jpg ",
+      urlImage: "https://static3.abc.es/media/bienestar/2021/02/09/pizza-base-verduras-kBFE--1200x630@abc.jpg ",
       destacado: false,
       size: 32,
       unitSize: "cm",
@@ -50,7 +50,7 @@ export default function Dashboard() {
     {
       name: "Masa",
       price: 3.0,
-      urlImage: "http://www.panificadoraindustrialsac.com/img/prod_pizza.jpg ",
+      urlImage: "https://static3.abc.es/media/bienestar/2021/02/09/pizza-base-verduras-kBFE--1200x630@abc.jpg ",
       destacado: false,
       size: 34,
       unitSize: "cm",
@@ -59,7 +59,7 @@ export default function Dashboard() {
     {
       name: "Masa",
       price: 3.6,
-      urlImage: "http://www.panificadoraindustrialsac.com/img/prod_pizza.jpg ",
+      urlImage: "https://static3.abc.es/media/bienestar/2021/02/09/pizza-base-verduras-kBFE--1200x630@abc.jpg ",
       destacado: false,
       size: 36,
       unitSize: "cm",
@@ -68,7 +68,7 @@ export default function Dashboard() {
     {
       name: "Masa",
       price: 4.2,
-      urlImage: "http://www.panificadoraindustrialsac.com/img/prod_pizza.jpg ",
+      urlImage: "https://static3.abc.es/media/bienestar/2021/02/09/pizza-base-verduras-kBFE--1200x630@abc.jpg ",
       destacado: true,
       size: 40,
       unitSize: "cm",
