@@ -3,7 +3,72 @@ width: 100%;
 height: 200px !important;
 }
 
-.masa-card{
-  margin-left: 40%;
-  margin-top: 15px;
+
+
+
+.gallery-all-productss{
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 22rem;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+
+}
+
+
+.cardContainer {
+  display: flex !important;
+  box-shadow: 0px 5px 10px 0px rgba(0, 255, 255, 0.7);
+  padding: 40px;
+  background: #fff;
+  border-radius: 20px;
+  max-width: 70vw;
+  margin: 10px auto;
+}
+.cardContainer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 255, 255, 0.7);
+}
+.imageProduct{
+  max-height: 180px;
+}
+
+.offersCarrousel{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.offer-carrousel-image{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+hr {
+  display: block;
+  margin: 50px 0 -15px;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.tabs-spacer{
+  margin-left: 35%;
+  max-width: 30vw;
+}
+
+.cardContainerForCategories {
+  display: flex !important;
+  box-shadow: 0px 5px 10px 0px rgba(209, 5, 66, 0.7);
+  padding: 40px;
+  background: #fff;
+  border-radius: 20px;
+  max-width: 30vw;
+  min-width: 10vw;
+  margin: 10px auto;
+  justify-content: center;
+}
+.cardContainerForCategories:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px 2px rgba(118, 3, 153, 0.7);
 }
