@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge } from "react-bootstrap";
+import { Badge, Card } from "react-bootstrap";
 import Categories from "./components/categories/categories";
 import OffersCarrousel from "./components/offersCarrousel";
 import SingleCard from "./components/singleCard";
@@ -192,6 +192,19 @@ export default function Dashboard() {
             Todos los <Badge bg="info">Productos</Badge>
           </h3>
           <SingleCard destacado={false} />
+        </div>
+        <div className="div-proms">
+        <Card>
+        <Card.Body>
+          <Card.Text>
+          Por compra de lasagñas te damos 2 masas personales gratis
+          </Card.Text>
+          <Card.Text>
+          Por la compra de masas la salsa sale a 15 soles
+          </Card.Text>
+        </Card.Body>
+        <Card.Img className="proms" src="https://scontent.flim17-1.fna.fbcdn.net/v/t39.30808-6/243311227_192214896355836_6638965621272657078_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=19026a&_nc_ohc=K9gbPkd9NJYAX8_YxUc&_nc_ht=scontent.flim17-1.fna&oh=00_AT9PiZ6o7t_wfEIecA_SHtwQGJGhhNAddRfJzrQolGIMEg&oe=62FC5EBE" alt="Card image" />
+      </Card>
         </div>
       </MasaContext.Provider>
     </div>
