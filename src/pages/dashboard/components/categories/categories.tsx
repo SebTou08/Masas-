@@ -15,7 +15,7 @@ export default function Categories() {
   for (const [i, masa] of masas.entries()) {
     const basicText: string = 'Hola buen dia, deseo comprar un(a): '+ masa.name + ' de ' + masa.size + masa.unitSize;
     const link: string = 'https://wa.me/51902186650?text='+ basicText;
-    if (masa.category == 0) {
+    if (masa.category === 0) {
       listMasa.push(
         <div className="cardContainerForCategories">
           <Card key={i}>
@@ -35,7 +35,7 @@ export default function Categories() {
         </div>
       );
     }
-    else if(masa.category == 1){
+    else if(masa.category === 1){
       listLasagnas.push(
         <div className="cardContainerForCategories">
           <Card key={i}>
@@ -55,7 +55,7 @@ export default function Categories() {
         </div>
       );
     }
-    else if(masa.category == 2){
+    else if(masa.category === 2){
       listQuesos.push(
         <div className="cardContainerForCategories">
           <Card key={i}>
